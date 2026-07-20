@@ -1,0 +1,11 @@
+day 1
+git cmnd
+
+
+ git status
+ git init
+ git add .
+ git commit -m "hello"
+ git branch -M main
+ git remote add origin https://github.com/himanshusingh412/FSDCSE21BACKEND.git
+ git push -u origin main
