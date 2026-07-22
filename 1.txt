@@ -1,4 +1,4 @@
-day 1
+*/ DAY 1
 git cmnd
 
 
@@ -8,4 +8,5 @@ git cmnd
  git commit -m "hello"
  git branch -M main
  git remote add origin https://github.com/himanshusingh412/FSDCSE21BACKEND.git
- git push -u origin main
+ git push -u origin main  //
+
