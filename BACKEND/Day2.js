@@ -25,7 +25,7 @@ let a=10;
 let b=20;
 add(a, b, sayHi);
 add(a, b, hello);
-add(hello, sayHi);
+//add(hello, sayHi);
 function sayHi(){
     console.log("This is callback function");
 }
@@ -41,4 +41,4 @@ function display(callback){
 function learning(){
     console.log("Learning FSD in CSE21");
 }
-display(learning);
+display(learning); 
