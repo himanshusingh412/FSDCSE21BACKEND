@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Aarav Sharma",
+    "age": 20,
+    "course": "Computer Science",
+    "year": 3,
+    "email": "aarav.sharma@example.com",
+    "gpa": 8.7
+  },
+  {
+    "id": 2,
+    "name": "Priya Patel",
+    "age": 21,
+    "course": "Electronics Engineering",
+    "year": 4,
+    "email": "priya.patel@example.com",
+    "gpa": 9.1
+  },
+  {
+    "id": 3,
+    "name": "Rohan Gupta",
+    "age": 19,
+    "course": "Mechanical Engineering",
+    "year": 2,
+    "email": "rohan.gupta@example.com",
+    "gpa": 7.8
+  },
+  {
+    "id": 4,
+    "name": "Sneha Reddy",
+    "age": 20,
+    "course": "Computer Science",
+    "year": 3,
+    "email": "sneha.reddy@example.com",
+    "gpa": 8.9
+  },
+  {
+    "id": 5,
+    "name": "Vikram Singh",
+    "age": 22,
+    "course": "Civil Engineering",
+    "year": 4,
+    "email": "vikram.singh@example.com",
+    "gpa": 7.5
+  },
+  {
+    "id": 6,
+    "name": "Ananya Iyer",
+    "age": 19,
+    "course": "Information Technology",
+    "year": 2,
+    "email": "ananya.iyer@example.com",
+    "gpa": 9.3
+  },
+  {
+    "id": 7,
+    "name": "Karan Mehta",
+    "age": 21,
+    "course": "Computer Science",
+    "year": 3,
+    "email": "karan.mehta@example.com",
+    "gpa": 8.2
+  },
+  {
+    "id": 8,
+    "name": "Ishita Nair",
+    "age": 20,
+    "course": "Electronics Engineering",
+    "year": 3,
+    "email": "ishita.nair@example.com",
+    "gpa": 8.6
+  },
+  {
+    "id": 9,
+    "name": "Aditya Verma",
+    "age": 22,
+    "course": "Mechanical Engineering",
+    "year": 4,
+    "email": "aditya.verma@example.com",
+    "gpa": 7.9
+  },
+  {
+    "id": 10,
+    "name": "Meera Joshi",
+    "age": 19,
+    "course": "Information Technology",
+    "year": 1,
+    "email": "meera.joshi@example.com",
+    "gpa": 9.0
+  }
+]
