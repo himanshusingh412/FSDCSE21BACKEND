@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About - ExpressWeb</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: white;
+            min-height: 100vh;
+        }
+
+        nav {
+            height: 70px;
+            padding: 0 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #111827;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .logo span {
+            color: #38bdf8;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 30px;
+            list-style: none;
+        }
+
+        nav a {
+            color: #cbd5e1;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        .container {
+            min-height: calc(100vh - 70px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 20px;
+        }
+
+        .content {
+            max-width: 800px;
+            text-align: center;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 8px 18px;
+            margin-bottom: 25px;
+            border: 1px solid #334155;
+            border-radius: 50px;
+            color: #38bdf8;
+            background: #1e293b;
+        }
+
+        h1 {
+            font-size: 55px;
+            margin-bottom: 20px;
+        }
+
+        h1 span {
+            color: #38bdf8;
+        }
+
+        p {
+            color: #94a3b8;
+            font-size: 18px;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+
+        .box {
+            margin-top: 30px;
+            padding: 25px;
+            background: #1e293b;
+            border: 1px solid #334155;
+            border-radius: 15px;
+        }
+
+        footer {
+            padding: 20px;
+            text-align: center;
+            color: #64748b;
+            background: #020617;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+
+        <div class="logo">
+            Express<span>Web</span>
+        </div>
+
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+
+    </nav>
+
+    <div class="container">
+
+        <div class="content">
+
+            <div class="tag">
+                🚀 About the Project
+            </div>
+
+            <h1>
+                About <span>ExpressWeb</span>
+            </h1>
+
+            <p>
+                This project is built using Node.js and Express.js.
+                Express handles incoming requests and sends the
+                required HTML pages to the browser.
+            </p>
+
+            <div class="box">
+
+                <p>
+                    <strong>Frontend:</strong> HTML & CSS
+                </p>
+
+                <p>
+                    <strong>Backend:</strong> Node.js + Express.js
+                </p>
+
+                <p>
+                    <strong>Server:</strong> localhost:3000
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+        © 2026 ExpressWeb · Built with Node.js & Express
+    </footer>
+
+</body>
+
+</html>
