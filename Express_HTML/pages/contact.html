@@ -4,120 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            background: #0f172a;
-            color: white;
-            min-height: 100vh;
-        }
-
-        nav {
-            height: 70px;
-            padding: 0 8%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background: #111827;
-        }
-
-        .logo {
-            font-size: 24px;
-            font-weight: bold;
-        }
-
-        .logo span {
-            color: #38bdf8;
-        }
-
-        nav ul {
-            display: flex;
-            gap: 30px;
-            list-style: none;
-        }
-
-        nav a {
-            color: #cbd5e1;
-            text-decoration: none;
-        }
-
-        nav a:hover {
-            color: #38bdf8;
-        }
-
-        .container {
-            min-height: calc(100vh - 70px);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 40px 20px;
-        }
-
-        .contact-box {
-            width: 100%;
-            max-width: 600px;
-            background: #1e293b;
-            padding: 40px;
-            border-radius: 16px;
-            border: 1px solid #334155;
-        }
-
-        h1 {
-            font-size: 40px;
-            margin-bottom: 10px;
-        }
-
-        .subtitle {
-            color: #94a3b8;
-            margin-bottom: 30px;
-        }
-
-        label {
-            display: block;
-            margin-bottom: 8px;
-        }
-
-        input,
-        textarea {
-            width: 100%;
-            padding: 13px;
-            margin-bottom: 20px;
-            border: 1px solid #475569;
-            border-radius: 8px;
-            background: #0f172a;
-            color: white;
-            font-size: 15px;
-        }
-
-        textarea {
-            height: 130px;
-            resize: none;
-        }
-
-        button {
-            width: 100%;
-            padding: 14px;
-            border: none;
-            border-radius: 8px;
-            background: #38bdf8;
-            color: #0f172a;
-            font-weight: bold;
-            font-size: 16px;
-            cursor: pointer;
-        }
-
-        button:hover {
-            background: #7dd3fc;
-        }
-    </style>
+    <title>Contact · Himanshu Singh</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 
 <body>
@@ -125,7 +13,7 @@
     <nav>
 
         <div class="logo">
-            Express<span>Web</span>
+            Himanshu<span>.dev</span>
         </div>
 
         <ul>
@@ -138,7 +26,11 @@
             </li>
 
             <li>
-                <a href="/contact">Contact</a>
+                <a href="/projects">Projects</a>
+            </li>
+
+            <li>
+                <a href="/contact" class="active">Contact</a>
             </li>
         </ul>
 
@@ -148,10 +40,10 @@
 
         <div class="contact-box">
 
-            <h1>Contact Us</h1>
+            <h1>Get in Touch</h1>
 
             <p class="subtitle">
-                Have a question? Send us a message.
+                Have a project in mind or just want to say hi? Send me a message.
             </p>
 
             <form>
