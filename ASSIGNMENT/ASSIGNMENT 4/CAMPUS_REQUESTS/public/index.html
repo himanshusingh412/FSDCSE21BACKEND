@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Campus Help Desk</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <span class="logo" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="18" height="18"><path d="M12 3 2 8l10 5 10-5-10-5Zm-6 7.2V15c0 1.7 2.7 3 6 3s6-1.3 6-3v-4.8l-6 3-6-3Z" fill="currentColor"/></svg>
+      </span>
+      <span class="brand">Campus Help Desk</span>
+    </div>
+  </header>
+
+  <main class="layout">
+    <form id="requestForm" class="panel" novalidate>
+      <div class="panel-head">
+        <h1 id="formTitle">New Request</h1>
+        <p class="hint">Tell us what's wrong and we'll route it to the right team.</p>
+      </div>
+
+      <div class="field">
+        <label for="studentName">Student name</label>
+        <input type="text" id="studentName" autocomplete="name" placeholder="e.g. Asha Verma" required />
+      </div>
+
+      <div class="field">
+        <label for="email">Email</label>
+        <input type="email" id="email" autocomplete="email" placeholder="you@college.edu" required />
+      </div>
+
+      <div class="field-row">
+        <div class="field">
+          <label for="category">Category</label>
+          <select id="category" required>
+            <option value="">Choose…</option>
+            <option>Hostel</option>
+            <option>Classroom</option>
+            <option>Library</option>
+            <option>Canteen</option>
+            <option>Transport</option>
+            <option>IT / Wi-Fi</option>
+            <option>Other</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="priority">Priority</label>
+          <select id="priority" required>
+            <option>Low</option>
+            <option selected>Medium</option>
+            <option>High</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="description">Problem description</label>
+        <textarea id="description" rows="5" placeholder="Where is it, what happened, and since when?" required></textarea>
+      </div>
+
+      <div class="actions">
+        <button type="submit" id="submitBtn" class="btn btn-primary">Submit Request</button>
+        <button type="button" id="cancelBtn" class="btn btn-ghost" hidden>Cancel</button>
+      </div>
+      <p id="message" class="message" role="status" aria-live="polite"></p>
+    </form>
+
+    <section class="list-section" aria-labelledby="listTitle">
+      <div class="list-head">
+        <h2 id="listTitle">All Requests <span id="count" class="count"></span></h2>
+      </div>
+      <div id="requestList">
+        <ul class="req-list" aria-hidden="true">
+          <li class="req skeleton"><span></span><span></span><span></span></li>
+          <li class="req skeleton"><span></span><span></span><span></span></li>
+          <li class="req skeleton"><span></span><span></span><span></span></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
