@@ -1,0 +1,272 @@
+[
+  {
+    "id": "FSD/environment-variables.md",
+    "title": "Environment Variables and Configuration",
+    "subject": "FSD",
+    "summary": "Settings that change between machines, like ports and secrets, belong in environment variables, not in code.",
+    "fileName": "environment-variables.md",
+    "url": "/files/notes/FSD/environment-variables.md",
+    "size": 484,
+    "updated": "2026-08-19T03:30:00.000Z"
+  },
+  {
+    "id": "FSD/error-handling-in-express.md",
+    "title": "Error Handling in Express",
+    "subject": "FSD",
+    "summary": "Express catches errors thrown in handlers and passes them to error-handling middleware.",
+    "fileName": "error-handling-in-express.md",
+    "url": "/files/notes/FSD/error-handling-in-express.md",
+    "size": 555,
+    "updated": "2026-08-12T08:45:00.000Z"
+  },
+  {
+    "id": "FSD/es-modules-in-node.md",
+    "title": "ES Modules in Node.js",
+    "subject": "FSD",
+    "summary": "Use import / export instead of require() by setting \"type\": \"module\" in package.json.",
+    "fileName": "es-modules-in-node.md",
+    "url": "/files/notes/FSD/es-modules-in-node.md",
+    "size": 388,
+    "updated": "2026-10-05T03:38:46.336Z"
+  },
+  {
+    "id": "FSD/express-basics.md",
+    "title": "Express.js Basics",
+    "subject": "FSD",
+    "summary": "Express is a minimal Node.js framework for handling requests, middleware and static files.",
+    "fileName": "express-basics.md",
+    "url": "/files/notes/FSD/express-basics.md",
+    "size": 510,
+    "updated": "2026-10-05T03:38:46.336Z"
+  },
+  {
+    "id": "FSD/http-and-the-web.md",
+    "title": "HTTP and How the Web Works",
+    "subject": "FSD",
+    "summary": "A browser sends an HTTP request, the server answers with a status code, headers and a body.",
+    "fileName": "http-and-the-web.md",
+    "url": "/files/notes/FSD/http-and-the-web.md",
+    "size": 361,
+    "updated": "2026-10-05T03:38:46.336Z"
+  },
+  {
+    "id": "FSD/middleware-in-express.md",
+    "title": "Middleware in Express",
+    "subject": "FSD",
+    "summary": "Middleware functions sit between the request and the response and can read, change or end a request.",
+    "fileName": "middleware-in-express.md",
+    "url": "/files/notes/FSD/middleware-in-express.md",
+    "size": 481,
+    "updated": "2026-10-05T03:40:56.074Z"
+  },
+  {
+    "id": "FSD/npm-and-package-json.md",
+    "title": "npm and package.json",
+    "subject": "FSD",
+    "summary": "package.json describes a Node project: its name, scripts, dependencies and module type.",
+    "fileName": "npm-and-package-json.md",
+    "url": "/files/notes/FSD/npm-and-package-json.md",
+    "size": 464,
+    "updated": "2026-10-05T03:40:56.077Z"
+  },
+  {
+    "id": "FSD/express-routing-and-params.md",
+    "title": "Routing and Route Parameters in Express",
+    "subject": "FSD",
+    "summary": "Routes match a URL path and HTTP method to a handler; parameters capture parts of the path.",
+    "fileName": "express-routing-and-params.md",
+    "url": "/files/notes/FSD/express-routing-and-params.md",
+    "size": 578,
+    "updated": "2026-08-04T05:00:00.000Z"
+  },
+  {
+    "id": "FSD/static-files-and-downloads.md",
+    "title": "Static Files and Downloads",
+    "subject": "FSD",
+    "summary": "Express can serve files from a folder and tell the browser to download them instead of opening them.",
+    "fileName": "static-files-and-downloads.md",
+    "url": "/files/notes/FSD/static-files-and-downloads.md",
+    "size": 425,
+    "updated": "2026-10-05T03:40:56.082Z"
+  },
+  {
+    "id": "JavaScript/arrays-and-higher-order-functions.md",
+    "title": "Arrays and Higher-Order Functions",
+    "subject": "JavaScript",
+    "summary": "map, filter and reduce transform arrays without manual loops.",
+    "fileName": "arrays-and-higher-order-functions.md",
+    "url": "/files/notes/JavaScript/arrays-and-higher-order-functions.md",
+    "size": 324,
+    "updated": "2026-10-05T03:38:46.337Z"
+  },
+  {
+    "id": "JavaScript/destructuring-and-spread.md",
+    "title": "Destructuring and Spread",
+    "subject": "JavaScript",
+    "summary": "Destructuring pulls values out of arrays and objects; spread copies or merges them.",
+    "fileName": "destructuring-and-spread.md",
+    "url": "/files/notes/JavaScript/destructuring-and-spread.md",
+    "size": 381,
+    "updated": "2026-10-05T03:40:56.091Z"
+  },
+  {
+    "id": "JavaScript/error-handling-try-catch.md",
+    "title": "Error Handling with try/catch",
+    "subject": "JavaScript",
+    "summary": "try/catch lets a program recover from errors instead of crashing.",
+    "fileName": "error-handling-try-catch.md",
+    "url": "/files/notes/JavaScript/error-handling-try-catch.md",
+    "size": 438,
+    "updated": "2026-09-22T10:20:00.000Z"
+  },
+  {
+    "id": "JavaScript/modules-import-export.md",
+    "title": "Modules: import and export",
+    "subject": "JavaScript",
+    "summary": "Modules split code into files that share values explicitly through import and export.",
+    "fileName": "modules-import-export.md",
+    "url": "/files/notes/JavaScript/modules-import-export.md",
+    "size": 402,
+    "updated": "2026-10-05T03:40:56.095Z"
+  },
+  {
+    "id": "JavaScript/objects-and-classes.md",
+    "title": "Objects and Classes",
+    "subject": "JavaScript",
+    "summary": "Objects group related data and behaviour; classes are a template for creating many similar objects.",
+    "fileName": "objects-and-classes.md",
+    "url": "/files/notes/JavaScript/objects-and-classes.md",
+    "size": 435,
+    "updated": "2026-09-17T07:40:00.000Z"
+  },
+  {
+    "id": "JavaScript/promises-and-async-await.md",
+    "title": "Promises and async/await",
+    "subject": "JavaScript",
+    "summary": "A Promise represents a value that arrives later; async/await makes that code read top to bottom.",
+    "fileName": "promises-and-async-await.md",
+    "url": "/files/notes/JavaScript/promises-and-async-await.md",
+    "size": 338,
+    "updated": "2026-10-05T03:38:46.337Z"
+  },
+  {
+    "id": "JavaScript/scope-and-closures.md",
+    "title": "Scope and Closures",
+    "subject": "JavaScript",
+    "summary": "A closure is a function that remembers the variables from where it was created.",
+    "fileName": "scope-and-closures.md",
+    "url": "/files/notes/JavaScript/scope-and-closures.md",
+    "size": 325,
+    "updated": "2026-10-05T03:38:46.337Z"
+  },
+  {
+    "id": "JavaScript/dom-and-events.md",
+    "title": "The DOM and Events",
+    "subject": "JavaScript",
+    "summary": "The DOM is the browser's tree of page elements; JavaScript can read, change and listen to it.",
+    "fileName": "dom-and-events.md",
+    "url": "/files/notes/JavaScript/dom-and-events.md",
+    "size": 405,
+    "updated": "2026-10-05T03:40:56.093Z"
+  },
+  {
+    "id": "JavaScript/fetch-api-and-json.md",
+    "title": "The Fetch API and JSON",
+    "subject": "JavaScript",
+    "summary": "fetch requests a resource over HTTP and returns a Promise for the response.",
+    "fileName": "fetch-api-and-json.md",
+    "url": "/files/notes/JavaScript/fetch-api-and-json.md",
+    "size": 385,
+    "updated": "2026-09-29T04:35:00.000Z"
+  },
+  {
+    "id": "React/components-and-props.md",
+    "title": "Components and Props",
+    "subject": "React",
+    "summary": "Components are functions that return JSX; props pass data from parent to child.",
+    "fileName": "components-and-props.md",
+    "url": "/files/notes/React/components-and-props.md",
+    "size": 333,
+    "updated": "2026-10-05T03:38:46.337Z"
+  },
+  {
+    "id": "React/conditional-rendering.md",
+    "title": "Conditional Rendering",
+    "subject": "React",
+    "summary": "React shows different UI based on state using ordinary JavaScript expressions inside JSX.",
+    "fileName": "conditional-rendering.md",
+    "url": "/files/notes/React/conditional-rendering.md",
+    "size": 358,
+    "updated": "2026-08-27T05:50:00.000Z"
+  },
+  {
+    "id": "React/fetching-data.md",
+    "title": "Fetching Data in React",
+    "subject": "React",
+    "summary": "Load data inside useEffect with fetch, then store the result in state.",
+    "fileName": "fetching-data.md",
+    "url": "/files/notes/React/fetching-data.md",
+    "size": 330,
+    "updated": "2026-10-05T03:38:46.337Z"
+  },
+  {
+    "id": "React/handling-forms.md",
+    "title": "Handling Forms",
+    "subject": "React",
+    "summary": "In a controlled input, React state holds the value and onChange updates it.",
+    "fileName": "handling-forms.md",
+    "url": "/files/notes/React/handling-forms.md",
+    "size": 371,
+    "updated": "2026-10-05T03:40:56.087Z"
+  },
+  {
+    "id": "React/lifting-state-up.md",
+    "title": "Lifting State Up",
+    "subject": "React",
+    "summary": "When two components need the same data, move the state to their closest common parent and pass it down as props.",
+    "fileName": "lifting-state-up.md",
+    "url": "/files/notes/React/lifting-state-up.md",
+    "size": 441,
+    "updated": "2026-09-10T02:45:00.000Z"
+  },
+  {
+    "id": "React/lists-and-keys.md",
+    "title": "Lists and Keys",
+    "subject": "React",
+    "summary": "Render arrays with .map(); each item needs a key that is unique and stable among its siblings.",
+    "fileName": "lists-and-keys.md",
+    "url": "/files/notes/React/lists-and-keys.md",
+    "size": 474,
+    "updated": "2026-10-05T03:40:56.084Z"
+  },
+  {
+    "id": "React/vite-project-setup.md",
+    "title": "Setting Up React with Vite",
+    "subject": "React",
+    "summary": "Vite creates a React project with a fast dev server and an optimized production build.",
+    "fileName": "vite-project-setup.md",
+    "url": "/files/notes/React/vite-project-setup.md",
+    "size": 399,
+    "updated": "2026-10-05T03:40:56.089Z"
+  },
+  {
+    "id": "React/state-and-hooks.md",
+    "title": "State and Hooks",
+    "subject": "React",
+    "summary": "useState stores values that change over time; useEffect runs side effects after render.",
+    "fileName": "state-and-hooks.md",
+    "url": "/files/notes/React/state-and-hooks.md",
+    "size": 360,
+    "updated": "2026-10-05T03:38:46.337Z"
+  },
+  {
+    "id": "React/useref-and-dom-access.md",
+    "title": "useRef and DOM Access",
+    "subject": "React",
+    "summary": "useRef holds a mutable value that survives re-renders without causing one, and can point at a DOM element.",
+    "fileName": "useref-and-dom-access.md",
+    "url": "/files/notes/React/useref-and-dom-access.md",
+    "size": 393,
+    "updated": "2026-09-03T11:15:00.000Z"
+  }
+]
